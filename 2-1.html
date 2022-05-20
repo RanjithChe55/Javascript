@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+</head>
+<body>
+	 
+    <h1> ComposedValue Function </h1>
+    
+     <script> 
+          var num = window.prompt("Enter Number ");
+          var result = composedValue(num);
+          
+          document.write("The Square of Double Number ="+result);
+
+          function composedValue(x){
+              return (square(double(x)));
+          }
+          
+          function square(x){ 
+              return(x * x);
+          }
+          
+          function double(x){
+               return(x * 2);
+          }
+          
+     </script>
+    </body>
+</html>
